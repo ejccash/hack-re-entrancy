@@ -27,8 +27,6 @@ contract EtherStoreTest is Test {
         Eve = vm.addr(3);
         vm.deal(Eve,2 ether);
         attack = new Attack(address(etherStore));
-
-
     }
 
     function testDeposit(uint16 amount) public {
